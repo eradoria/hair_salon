@@ -76,7 +76,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: right;
-    padding-right: 300px;
+    padding-right: 200px;
 }
 main h1{
     color: rgb(255, 255, 255);
