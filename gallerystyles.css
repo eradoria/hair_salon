@@ -7,7 +7,7 @@ body{
 }
 
 .grid-container{
-    border: solid red;
+    /* border: solid red; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -15,7 +15,7 @@ body{
 }
 header,main,section,footer{
     /* flex: 1; */
-    border: solid green;
+    /* border: solid green; */
 }
 
 header{
@@ -106,14 +106,24 @@ main h1{
     padding-left: 80px;
 }
 
+
+
 footer{
     background-color: gray;
+    border-top: solid black;
     height: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: right;
+    justify-content:right;
+
+}
+
+footer p{
+    color: white;
+    padding-right:800px;
+
 }
 
 footer div{
@@ -124,7 +134,8 @@ footer div{
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    border-radius: 40px;
+    border: solid white;
+    /* border-radius: 40px; */
     text-align: center;
     text-decoration: none;
   }
@@ -134,17 +145,17 @@ footer div{
   }
 
 .fa-facebook {
-    background: #3B5998;
+    background: gray;
     color: white;
   }
 
 .fa-twitter {
-    background: #55ACEE;
+    background: gray;
     color: white;
   }
 
 .fa-instagram {
-    background: #125688;
+    background: gray;
     color: white;
   }
   
@@ -154,11 +165,11 @@ footer div{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 .fa-vimeo {
-    background: #45bbff;
+    background: gray;
     color: white;
   }
 .fa-foursquare {
-    background: #45bbff;
+    background: gray;
     color: white;
   }
 
@@ -170,5 +181,14 @@ footer div{
     }
     footer{
         height: 140px;
+        
+    }
+
+    footer p{
+        padding: 0%;
+    }
+
+    .row3 div img{
+        padding-top: 30px;
     }
 }

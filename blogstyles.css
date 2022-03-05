@@ -7,7 +7,7 @@ body{
 }
 
 .grid-container{
-    border: solid red;
+    /* border: solid red; */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@ body{
 }
 header,main,section,footer{
     /* flex: 1; */
-    border: solid green;
+    /* border: solid green; */
 }
 
 header{
@@ -30,7 +30,7 @@ header div{
     /* border: solid purple; */
     height: 150px;
     width: 250px;
-    padding-top: 10;
+    padding-top: 20;
 }
 
 #logo{
@@ -98,14 +98,24 @@ main img{
 }
 
 
+
+
 footer{
     background-color: gray;
+    border-top: solid black;
     height: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: right;
+    justify-content:right;
+
+}
+
+footer p{
+    color: white;
+    padding-right:800px;
+
 }
 
 footer div{
@@ -116,7 +126,8 @@ footer div{
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    border-radius: 40px;
+    border: solid white;
+    /* border-radius: 40px; */
     text-align: center;
     text-decoration: none;
   }
@@ -126,17 +137,17 @@ footer div{
   }
 
 .fa-facebook {
-    background: #3B5998;
+    background: gray;
     color: white;
   }
 
 .fa-twitter {
-    background: #55ACEE;
+    background: gray;
     color: white;
   }
 
 .fa-instagram {
-    background: #125688;
+    background: gray;
     color: white;
   }
   
@@ -146,14 +157,13 @@ footer div{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 .fa-vimeo {
-    background: #45bbff;
+    background: gray;
     color: white;
   }
 .fa-foursquare {
-    background: #45bbff;
+    background: gray;
     color: white;
   }
-
 
   @media only screen and (max-width: 576px) {
     body main{
@@ -163,5 +173,9 @@ footer div{
     body main .box{
         flex-direction: column;
         overflow: scroll;
+    }
+
+    footer p{
+        padding: 0%;
     }
 }
